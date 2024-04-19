@@ -52,7 +52,7 @@ namespace ConsoleApp6
             valueList.Add("nine", 9);
             valueList.Add("ten", 10);
 
-            for (int i = 0; i < valueList.Count; i++) { Console.WriteLine(valueList[i]); }
+            for (int i = 0; i < valueList.Count; i++) { Console.WriteLine($"{valueList[i].Key} = {valueList[i].Value} "); }
         }
     }
 }
